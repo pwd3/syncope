@@ -68,6 +68,8 @@ under the License.
       <p>
         On Unix with JDK 7
         <source>export MAVEN_OPTS="-Xms512m -Xmx1024m -XX:PermSize=256m -XX:MaxPermSize=512m"</source>
+        On Unix with JDK up after 8.0
+        <source>export MAVEN_OPTS="-Xms512m -Xmx1024m"</source>
       </p>
       <p>
         On Unix with JDK 8 or later
